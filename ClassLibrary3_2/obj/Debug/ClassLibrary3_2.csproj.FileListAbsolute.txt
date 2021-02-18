@@ -1,0 +1,2 @@
+C:\Users\MediaMarkt\source\repos\ClassLibrary3_2\obj\Debug\ClassLibrary3_2.csprojAssemblyReference.cache
+C:\Users\MediaMarkt\source\repos\ClassLibrary3_2\obj\Debug\ClassLibrary3_2.csproj.CoreCompileInputs.cache

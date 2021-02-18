@@ -1,0 +1,16 @@
+C:\Users\MediaMarkt\source\repos\Form1\ClassLibrary3_1\bin\Debug\ClassLibrary3_1.pdb
+C:\Users\MediaMarkt\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CoreCompileInputs.cache
+C:\Users\MediaMarkt\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CopyComplete
+C:\Users\MediaMarkt\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.dll
+C:\Users\MediaMarkt\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.pdb
+C:\Users\MediaMarkt\source\repos2\repos\Form1\ClassLibrary3_1\bin\Debug\ClassLibrary3_1.pdb
+C:\Users\MediaMarkt\source\repos2\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csprojAssemblyReference.cache
+C:\Users\MediaMarkt\source\repos2\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CoreCompileInputs.cache
+C:\Users\MediaMarkt\source\repos2\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.dll
+C:\Users\MediaMarkt\source\repos2\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.pdb
+C:\Users\MediaMarkt\source\repos2\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CopyComplete
+C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\bin\Debug\ClassLibrary3_1.pdb
+C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CoreCompileInputs.cache
+C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CopyComplete
+C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.dll
+C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.pdb
