@@ -14,3 +14,8 @@ C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.cspr
 C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CopyComplete
 C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.dll
 C:\Users\kozha\source\repos\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.pdb
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_1\bin\Debug\ClassLibrary3_1.pdb
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CoreCompileInputs.cache
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.csproj.CopyComplete
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.dll
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_1\obj\Debug\ClassLibrary3_1.pdb

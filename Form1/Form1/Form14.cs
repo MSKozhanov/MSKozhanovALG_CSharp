@@ -41,7 +41,7 @@ namespace Form1
             //Создание БД на диске
             ClassLibrary3_3.Class1.add();
             int k = 0;
-            int j = 0;
+            //int j = 0;
             //Поиск максимального
             max_i = ClassLibrary3_3.Class1.max_mas(ref maximum, n, masPtr);
             MessageBox.Show("Номер максимального элемента =" + max_i.ToString("n"), "Номер", MessageBoxButtons.OK);
