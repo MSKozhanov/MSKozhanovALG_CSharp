@@ -36,8 +36,8 @@ namespace Form1
             this.button1 = new System.Windows.Forms.Button();
             this.grid = new System.Windows.Forms.DataGridView();
             this.grid2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.grid22 = new System.Windows.Forms.DataGridView();
+            this.grid33 = new System.Windows.Forms.DataGridView();
             this.grid5 = new System.Windows.Forms.DataGridView();
             this.grid6 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
@@ -46,8 +46,8 @@ namespace Form1
             this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid6)).BeginInit();
             this.SuspendLayout();
@@ -138,35 +138,35 @@ namespace Form1
             this.grid2.Size = new System.Drawing.Size(320, 50);
             this.grid2.TabIndex = 6;
             // 
-            // dataGridView2
+            // grid22
             // 
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.ColumnHeadersVisible = false;
-            this.dataGridView2.Location = new System.Drawing.Point(636, 311);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dataGridView2.Size = new System.Drawing.Size(320, 50);
-            this.dataGridView2.TabIndex = 7;
+            this.grid22.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.grid22.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.grid22.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid22.ColumnHeadersVisible = false;
+            this.grid22.Location = new System.Drawing.Point(636, 311);
+            this.grid22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grid22.Name = "grid22";
+            this.grid22.RowHeadersVisible = false;
+            this.grid22.RowHeadersWidth = 51;
+            this.grid22.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.grid22.Size = new System.Drawing.Size(320, 50);
+            this.grid22.TabIndex = 7;
             // 
-            // dataGridView3
+            // grid33
             // 
-            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataGridView3.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.ColumnHeadersVisible = false;
-            this.dataGridView3.Location = new System.Drawing.Point(636, 369);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersVisible = false;
-            this.dataGridView3.RowHeadersWidth = 51;
-            this.dataGridView3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dataGridView3.Size = new System.Drawing.Size(320, 50);
-            this.dataGridView3.TabIndex = 8;
+            this.grid33.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.grid33.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.grid33.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid33.ColumnHeadersVisible = false;
+            this.grid33.Location = new System.Drawing.Point(636, 369);
+            this.grid33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grid33.Name = "grid33";
+            this.grid33.RowHeadersVisible = false;
+            this.grid33.RowHeadersWidth = 51;
+            this.grid33.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.grid33.Size = new System.Drawing.Size(320, 50);
+            this.grid33.TabIndex = 8;
             // 
             // grid5
             // 
@@ -220,6 +220,7 @@ namespace Form1
             this.button3.TabIndex = 14;
             this.button3.Text = "Запуск";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -256,8 +257,8 @@ namespace Form1
             this.Controls.Add(this.button2);
             this.Controls.Add(this.grid6);
             this.Controls.Add(this.grid5);
-            this.Controls.Add(this.dataGridView3);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.grid33);
+            this.Controls.Add(this.grid22);
             this.Controls.Add(this.grid2);
             this.Controls.Add(this.grid);
             this.Controls.Add(this.button1);
@@ -271,8 +272,8 @@ namespace Form1
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.grid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid6)).EndInit();
             this.ResumeLayout(false);
@@ -289,8 +290,8 @@ namespace Form1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView grid;
         private System.Windows.Forms.DataGridView grid2;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView grid22;
+        private System.Windows.Forms.DataGridView grid33;
         private System.Windows.Forms.DataGridView grid5;
         private System.Windows.Forms.DataGridView grid6;
         private System.Windows.Forms.Button button2;

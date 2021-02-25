@@ -100,7 +100,7 @@ namespace ClassLibrary4
                 }
         }
 
-        public static void find_first_polozhit( int n, ref double[] masPtr)
+        public static void find_first_otric( int n, ref double[] masPtr)
         {  
             if (masPtr[0] > 0)
             {
@@ -116,7 +116,16 @@ namespace ClassLibrary4
             }
                 
         }
-        
-        
+        public static void vstavka(int k, double m, ref double[] masPtr)
+        {
+            Array.Resize(ref masPtr, (masPtr.Length + 1));
+            for (int i = masPtr.Length - 1; i > k + 1; --i)
+            {
+                masPtr[i] = masPtr[i - 1];
+            }
+            masPtr[k + 1] = m;
+        }
+
+
     }
 }
