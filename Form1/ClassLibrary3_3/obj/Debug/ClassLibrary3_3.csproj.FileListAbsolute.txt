@@ -28,10 +28,10 @@ C:\Users\kozha\source\repos\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.cspr
 C:\Users\kozha\source\repos\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.dll
 C:\Users\kozha\source\repos\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.pdb
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\bin\Debug\ClassLibrary3_3.pdb
-C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.csprojAssemblyReference.cache
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\Interop.ADOX.dll
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.csproj.ResolveComReference.cache
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.csproj.CoreCompileInputs.cache
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.csproj.CopyComplete
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.dll
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.pdb
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\ClassLibrary3_3\obj\Debug\ClassLibrary3_3.csprojAssemblyReference.cache

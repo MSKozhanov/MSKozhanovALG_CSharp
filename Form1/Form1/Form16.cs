@@ -49,5 +49,20 @@ namespace Form1
             f = ClassLibrary4.Class1.monoton(n, ref masPtr);
             MessageBox.Show(f.ToString("n"), "1-да 0-нет", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            String g = Interaction.InputBox("Введите количество элементов массива = ", "Введите значение", "", -1);
+            int n = Convert.ToInt16(g);
+            double [] masPtr = new double[n];
+            ClassLibrary4.Class1.enter_mas(n, ref masPtr);
+            ClassLibrary4.Class1.output_mas(n, grid6, masPtr);
+           
+            
+            ClassLibrary4.Class1.find_first_polozhit(n, ref masPtr);
+            
+            
+
+        }
     }
 }

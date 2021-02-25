@@ -99,5 +99,24 @@ namespace ClassLibrary4
                     j++;
                 }
         }
+
+        public static void find_first_polozhit( int n, ref double[] masPtr)
+        {  
+            if (masPtr[0] > 0)
+            {
+                MessageBox.Show("В массиве присутствует первый ПОЛОЖИТЕЛЬНЫЙ элемент");
+            }
+            else if (masPtr[0] < 0)
+            {
+                MessageBox.Show("В массиве присутствует первый ОТРИЦАТЕЛЬНЫЙ элемент");
+            }
+            else
+            {
+                MessageBox.Show("В массиве присутствует первый НУЛЕВОЙ элемент");
+            }
+                
+        }
+        
+        
     }
 }
