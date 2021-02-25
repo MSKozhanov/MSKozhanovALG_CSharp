@@ -63,57 +63,21 @@ namespace ClassLibrary4
             else
                 grid.Width = Width;
         }
-        // Нахождение максимального элемента массива и вывод его номера
-        public static int max_mas(ref double maximum, int n, double[] masPtr)
-        {
-            maximum = -99999;
-            int max_index = 0;
-            for (int i = 0; i < n; i++)
-            {
-                if (masPtr[i] > maximum)
-                {
-
-                    maximum = masPtr[i];
-                    max_index = i + 1;
-
-                }
-
-            }
-            return max_index;
-        }
-        // Счетчик
-        public static void set_count(int n, double maximum, ref int k, params double[] masPtr)
-        {
-            for (int i = 0; i < n; i++)
-                if (masPtr[i] < maximum)
-                    k++;
-        }
-        // Создание результирующего массива
-        public static void set_mas(int n, ref double maximum, double[] masPtr, params double[] rezmasPtr)
-        {
-            int j = 0;
-            for (int i = 0; i < n; i++)
-                if (masPtr[i] < maximum)
-                {
-                    rezmasPtr[j] = masPtr[i];
-                    j++;
-                }
-        }
+        
+        
+        
 
         public static void find_first_otric( int n, ref double[] masPtr)
         {  
-            if (masPtr[0] > 0)
+            for (int i = 0; i < masPtr.Length; i++)
             {
-                MessageBox.Show("В массиве присутствует первый ПОЛОЖИТЕЛЬНЫЙ элемент");
+                if (masPtr[i] < 0)
+                {
+                    MessageBox.Show(Convert.ToString(masPtr[i]));
+                    break;
+                }
             }
-            else if (masPtr[0] < 0)
-            {
-                MessageBox.Show("В массиве присутствует первый ОТРИЦАТЕЛЬНЫЙ элемент");
-            }
-            else
-            {
-                MessageBox.Show("В массиве присутствует первый НУЛЕВОЙ элемент");
-            }
+           
                 
         }
         public static void vstavka(int k, double m, ref double[] masPtr)
