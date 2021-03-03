@@ -97,5 +97,12 @@ namespace Form1
             this.Hide();
             f3.ShowDialog();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Form17 f3 = new Form17();
+            this.Hide();
+            f3.ShowDialog();
+        }
     }
 }

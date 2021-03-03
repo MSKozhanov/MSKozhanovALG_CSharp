@@ -3,4 +3,3 @@ C:\Users\kozha\source\KozhanovMS_BFI2002\ClassLibrary4\ClassLibrary4\bin\Debug\C
 C:\Users\kozha\source\KozhanovMS_BFI2002\ClassLibrary4\ClassLibrary4\obj\Debug\ClassLibrary4.dll
 C:\Users\kozha\source\KozhanovMS_BFI2002\ClassLibrary4\ClassLibrary4\obj\Debug\ClassLibrary4.pdb
 C:\Users\kozha\source\KozhanovMS_BFI2002\ClassLibrary4\ClassLibrary4\obj\Debug\ClassLibrary4.csproj.CopyComplete
-C:\Users\kozha\source\KozhanovMS_BFI2002\ClassLibrary4\ClassLibrary4\obj\Debug\ClassLibrary4.csprojAssemblyReference.cache

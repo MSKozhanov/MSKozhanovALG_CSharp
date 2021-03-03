@@ -120,4 +120,5 @@ C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\Form1\obj\Debug\Form1.exe
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\Form1\obj\Debug\Form1.pdb
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\Form1\obj\Debug\Form1.Form16.resources
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\Form1\bin\Debug\ClassLibrary4.dll
+C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\Form1\obj\Debug\Form1.Form17.resources
 C:\Users\kozha\source\KozhanovMS_BFI2002\Form1\Form1\bin\Debug\ClassLibrary4.pdb

@@ -29,13 +29,17 @@ namespace Form1
         {
             String g = Interaction.InputBox("Введите количество элементов массива = ", "Введите значение", "", -1);
             int n = Convert.ToInt16(g);
-            String z = Interaction.InputBox("Введите индекс который хотите удалить", "Введите значение", "", -1);
-            int ind = Convert.ToInt16(z);
+           
             double[] masPtr = new double[n];
             ClassLibrary4.Class1.enter_mas(n, ref masPtr);
             ClassLibrary4.Class1.output_mas(n, grid, masPtr);
+            String z = Interaction.InputBox("Введите индекс который хотите удалить", "Введите значение", "", -1);
+            int ind = Convert.ToInt16(z);
             ClassLibrary4.Class1.udalenie(ref masPtr, ind);
             ClassLibrary4.Class1.output_mas(n-1, grid2, masPtr);
+            ClassLibrary4.Class1.simple_choice(n, ref masPtr);
+            ClassLibrary4.Class1.output_mas(n-1, dataGridView2, masPtr);
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -58,8 +62,10 @@ namespace Form1
             ClassLibrary4.Class1.enter_mas(n, ref masPtr);
             ClassLibrary4.Class1.output_mas(n, grid6, masPtr);
             ClassLibrary4.Class1.find_first_otric(n, ref masPtr);
-            
-            
+            ClassLibrary4.Class1.simple_insertion(n, ref masPtr);
+            ClassLibrary4.Class1.output_mas(n, grid10, masPtr);
+
+
 
         }
 
@@ -68,14 +74,20 @@ namespace Form1
             String g = Interaction.InputBox("Введите количество элементов массива = ", "Введите значение", "", -1);
             int n = Convert.ToInt16(g);
             double[] masPtr = new double[n];
+            ClassLibrary4.Class1.enter_mas(n, ref masPtr);
+            ClassLibrary4.Class1.output_mas(n, grid22, masPtr);
             String z = Interaction.InputBox("После какого элемента хотите добавить?", "Введите значение", "", -1);
             int k = Convert.ToInt16(z);
             String l = Interaction.InputBox("Какой элемент вы хотите добавить?", "Введите значение", "", -1);
             double m = Convert.ToDouble(l);
-            ClassLibrary4.Class1.enter_mas(n, ref masPtr);
-            ClassLibrary4.Class1.output_mas(n, grid22, masPtr);
             ClassLibrary4.Class1.vstavka(k, m, ref masPtr);
             ClassLibrary4.Class1.output_mas(n + 1, grid33, masPtr);
+            ClassLibrary4.Class1.binary_insertion(n, ref masPtr);
+            ClassLibrary4.Class1.output_mas(n + 1, dataGridView1, masPtr);
         }
+
+      
+
+       
     }
 }
